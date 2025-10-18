@@ -4,6 +4,12 @@ import { ShoppingCart, Eye } from "lucide-react";
 import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
+import product4 from "@/assets/product-4.jpg";
+import product5 from "@/assets/product-5.jpg";
+import product6 from "@/assets/product-6.jpg";
+import product7 from "@/assets/product-7.jpg";
+import product8 from "@/assets/product-8.jpg";
+import product9 from "@/assets/product-9.jpg";
 
 const products = [
   {
@@ -29,6 +35,54 @@ const products = [
     price: "₹1,75,000",
     image: product3,
     description: "Exquisite wooden wall art showcasing Kashmir craftsmanship",
+  },
+  {
+    id: 4,
+    name: "Modern Luxury Sofa Set",
+    category: "Living Room",
+    price: "₹5,75,000",
+    image: product4,
+    description: "Contemporary walnut sofa with traditional carved accents",
+  },
+  {
+    id: 5,
+    name: "Designer Coffee Table",
+    category: "Living Room",
+    price: "₹1,25,000",
+    image: product5,
+    description: "Elegant modern coffee table with intricate wooden patterns",
+  },
+  {
+    id: 6,
+    name: "Contemporary Bookshelf",
+    category: "Study",
+    price: "₹2,85,000",
+    image: product6,
+    description: "Modular bookshelf with geometric Kashmiri design elements",
+  },
+  {
+    id: 7,
+    name: "Premium TV Console",
+    category: "Living Room",
+    price: "₹3,25,000",
+    image: product7,
+    description: "Modern entertainment unit with handcrafted wooden details",
+  },
+  {
+    id: 8,
+    name: "Signature Lounge Chair",
+    category: "Living Room",
+    price: "₹1,95,000",
+    image: product8,
+    description: "Luxurious accent chair blending modern comfort with tradition",
+  },
+  {
+    id: 9,
+    name: "Elegant Sideboard",
+    category: "Dining Room",
+    price: "₹3,75,000",
+    image: product9,
+    description: "Contemporary storage cabinet with geometric carved patterns",
   },
 ];
 

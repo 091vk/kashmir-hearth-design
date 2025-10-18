@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <h3 className="text-3xl font-serif font-bold mb-4">Chenab Valley Designers</h3>
+            <div className="mb-4">
+              <Logo size="lg" variant="light" />
+            </div>
             <p className="text-primary-foreground/80 leading-relaxed mb-6 max-w-md">
               Crafting timeless wooden interiors that blend traditional Kashmiri artistry 
               with contemporary elegance for over 25 years.

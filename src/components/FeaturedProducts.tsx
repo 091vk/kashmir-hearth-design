@@ -132,7 +132,7 @@ const FeaturedProducts = () => {
                     <Button
                       size="sm"
                       variant="outline"
-                      className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                      className="border-2 border-accent text-accent bg-transparent hover:bg-accent hover:text-white hover:border-accent transition-colors duration-300 shadow-sm"
                     >
                       <ShoppingCart className="h-4 w-4 mr-2" />
                       Add

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ShoppingCart } from "lucide-react";
+import Logo from "@/components/Logo";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -25,18 +26,15 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-md"
-          : "bg-transparent"
+          ? "bg-white/95 backdrop-blur-md shadow-md"
+          : "bg-gradient-to-b from-white/65 via-white/30 to-amber-800/10 backdrop-blur-sm"
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a
-            href="#home"
-            className="text-2xl lg:text-3xl font-serif font-bold text-primary hover:text-accent transition-colors"
-          >
-            Chenab Valley
+          <a href="#home" className="flex items-center" aria-label="Chenab Valley home">
+            <Logo size="md" variant="dark" />
           </a>
 
           {/* Desktop Navigation */}

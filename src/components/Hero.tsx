@@ -15,23 +15,22 @@ const Hero = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-background/50 to-background/30" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 lg:px-8 relative z-10 py-32">
         <div className="max-w-3xl animate-fade-in-up">
           <div className="inline-block mb-6 px-4 py-2 bg-accent/10 border border-accent/30 rounded-full">
-            <span className="text-sm font-medium text-accent">Handcrafted Excellence from Kashmir</span>
+            <span className="text-sm font-medium text-amber-300">Handcrafted Excellence from Kashmir</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-primary mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white drop-shadow-lg mb-6 leading-tight">
             Timeless
             <br />
-            <span className="text-accent">Wooden</span> Artistry
+            <span className="text-amber-300">Wooden</span> Artistry
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
+          <p className="hidden md:block text-lg md:text-xl text-white/90 mb-8 max-w-2xl leading-relaxed">
             Discover the finest handcrafted wooden interiors and premium décor, 
             where traditional Kashmiri craftsmanship meets contemporary elegance.
           </p>
@@ -48,7 +47,7 @@ const Hero = () => {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              className="text-lg px-8 py-6 border-2 border-white text-black hover:bg-white hover:text-black"
             >
               Custom Design
             </Button>
@@ -57,23 +56,22 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mt-16 pt-16 border-t border-border/50">
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <div className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1">25+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+              <div className="text-3xl md:text-4xl font-serif font-bold text-white mb-1">25+</div>
+              <div className="text-sm text-white/80">Years Experience</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <div className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1">500+</div>
-              <div className="text-sm text-muted-foreground">Projects Completed</div>
+              <div className="text-3xl md:text-4xl font-serif font-bold text-white mb-1">500+</div>
+              <div className="text-sm text-white/80">Projects Completed</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
-              <div className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1">100%</div>
-              <div className="text-sm text-muted-foreground">Handcrafted</div>
+              <div className="text-3xl md:text-4xl font-serif font-bold text-white mb-1">100%</div>
+              <div className="text-sm text-white/80">Handcrafted</div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Decorative Element */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-10" />
+  {/* Decorative Element removed to show image clearly */}
     </section>
   );
 };
